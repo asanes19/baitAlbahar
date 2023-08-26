@@ -612,7 +612,7 @@ margin: 0 0 30px 0;
   }
   .footer__copy{
     display: block;
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
     text-align: center;
     font-size: var(--smaller-font-size);
   }
@@ -840,7 +840,7 @@ margin: 0 0 30px 0;
         font-size: 1.5rem;
       }
       .footer__copy{
-        margin-top: 8rem;
+        margin-top: 2rem;
         padding-bottom: 0.6rem;
       }
     .contactInformation{
