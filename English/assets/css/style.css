@@ -86,7 +86,7 @@ html {
 }
 
 body {
-    font-family: 'Tajawal', sans-serif;
+    font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--text-color);
 }
@@ -105,10 +105,6 @@ h2,
 h3 {
     color: black;
     font-weight: var(--font-semi-bold);
-    text-align: end;
-}
-p{
-    text-align: end;
 }
 
 ul {
@@ -217,14 +213,12 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     line-height: 0.9em;
-    text-align: center;
 }
 #lead-content h2 {
     margin: 10px 0;
     color: #ffef89;
     font-weight: 700;
     font-size: 1.5em;
-    text-align: center;
 }
 #lead-content div {
     margin: 10px 0;
@@ -307,7 +301,6 @@ img {
 .contAbout {
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
 }
 .aboutText {
     width: 60%;
@@ -325,7 +318,7 @@ img {
     justify-content: center;
 }
 .aboutText p {
-    text-align: end;
+    text-align: justify;
     color: #74808a;
     font-weight: 600;
 }
@@ -409,16 +402,12 @@ img {
 .bannerSocialDown a:hover {
     color: #82752f;
 }
-.bannerSocialDown {
-    text-align: end;
-}
 
 .icon-info {
     display: flex;
     align-items: center;
     margin-top: 10px;
     flex-wrap: wrap;
-    justify-content: end;
 }
 
 .gold-icon {
@@ -468,7 +457,6 @@ img {
     border: 1px solid var(--first-color);
     margin: 13px;
     border-radius: 5px;
-    height: 170px;
 }
 
 .feature i {
@@ -481,10 +469,6 @@ img {
     font-size: 18px;
     font-weight: bold;
     color: var(--first-color);
-    text-align: center;
-}
-.feature p {
-    text-align: center;
 }
 
 
@@ -509,7 +493,6 @@ img {
     align-items: center;
     text-align: center;
        display: flex;
-
 
 }
 
@@ -587,8 +570,7 @@ margin: 0 0 30px 0;
     flex-direction: column;
     row-gap: .5rem;
     color: #74808a;
-    text-align: end;
-    margin-top: 0;
+    margin-bottom: 0;
   
   }
   .footer__link,
@@ -602,7 +584,6 @@ margin: 0 0 30px 0;
   }
   .footer__social{
     display: flex;
-    justify-content: end;
     column-gap: 1.5rem;
   }
   .footer__social-link{
@@ -642,7 +623,6 @@ margin: 0 0 30px 0;
     margin: 0 0 15px 0;
     color: #fff;
     font-weight: 500;
-    text-align: center;
 }
 #contact-form {
     max-width: 500px;
@@ -981,24 +961,6 @@ margin: 0 0 30px 0;
         width: 40%;
     }
 }
-
-.footer__content{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.contactItemFooter{
-    align-items: center;
-    text-align: center;
-    display: flex;
-    justify-content: end;
-}
-
-.footer__logo{
-    justify-content: end;
-}
-
 
 .btn-rounded-white {
     display: inline-block;
