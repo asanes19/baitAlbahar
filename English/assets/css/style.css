@@ -189,7 +189,7 @@ img {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../img/1899348.jpg);
+    background: url(../../../assets/img/1899348.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -797,7 +797,7 @@ margin: 0 0 30px 0;
         width: 25%;
     }
     .apartmentMain {
-        height: 550px;
+        height: 600px;
     }    
     .footer__container{
         grid-template-columns: repeat(4, max-content);
