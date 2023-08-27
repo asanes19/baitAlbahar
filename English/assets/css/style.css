@@ -797,7 +797,7 @@ margin: 0 0 30px 0;
         width: 25%;
     }
     .apartmentMain {
-        height: 600px;
+        height: 550px;
     }    
     .footer__container{
         grid-template-columns: repeat(4, max-content);
